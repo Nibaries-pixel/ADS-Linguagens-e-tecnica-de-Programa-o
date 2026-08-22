@@ -125,7 +125,7 @@ int main(int argc, char *argv[]) {
 	*/
 	
 	/*
-	printf("\n=============10==============\n");
+	printf("\n------------10------------\n");
 	
 	int a, b, c, maior_temp, maior;
 	
