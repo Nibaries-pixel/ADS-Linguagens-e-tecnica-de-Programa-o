@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* crie um programa que leia um n˙mero, entre 1 e 9 e caso ele seja positivo, 
- verifique se ele seja positivo, verifique se ele È um numero primo, caso seja,
- imprima seu dobro, caso n„o seja primo, verifique se È par ou impar. 
+/* crie um programa que leia um n√∫mero, entre 1 e 9 e caso ele seja positivo, 
+ verifique se ele seja positivo, verifique se ele √© um numero primo, caso seja,
+ imprima seu dobro, caso n√£o seja primo, verifique se √© par ou impar. 
  Se for par mostre o resultado da soma com 2. Se for impar mostre o seu proximo
  e seu anterior..
- Caso n„o seja entre 1 e 9 mostre _out_of_range */
+ Caso n√£o seja entre 1 e 9 mostre _out_of_range */
 
 int main(int argc, char *argv[]) {
 	
@@ -36,7 +36,7 @@ int main(int argc, char *argv[]) {
 	
 	case 'b': printf("Benentido"); break;
 	
-	case 'c': printf("… complicado a situaÁ„o"); break;
+	case 'c': printf("√â complicado a situa√ß√£o"); break;
 	
 	case 'd': printf("Tamo junto"); break;
 	}
