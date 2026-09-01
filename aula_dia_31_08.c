@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[]) {
 	
-	/*
+	
 	int n;
 	printf("Entre com o numero: ");
 	scanf("%d", &n);
@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
 			printf("|%d|%d|%d|",n-1,n, n+1);
 		
 	else printf("out_of_range");
-	*/
+	
 	
 	char op;
 	scanf("%c", &op);
