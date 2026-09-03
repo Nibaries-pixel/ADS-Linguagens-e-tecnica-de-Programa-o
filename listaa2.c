@@ -154,6 +154,7 @@ int main(int argc, char *argv[]) {
 			ss = (s%3600)%60;
 				
 			printf("Foram %d:%d:%d",h,m,ss);
+			break;
 		}
 	
 	
@@ -172,6 +173,7 @@ int main(int argc, char *argv[]) {
 			l = km/12;
 			
 			printf("Foram gastos %.3f Litros na viagem",l);
+			break;
 		}
 	
 		case 10:{
@@ -187,6 +189,7 @@ int main(int argc, char *argv[]) {
 			maior = ((maior_temp+c)+abs(maior_temp-c))/2;
 			
 			printf("\nO maior numero entre %d %d e %d e o %d ", a, b, c, maior);
+			break;
 		}
 	
 	}	
