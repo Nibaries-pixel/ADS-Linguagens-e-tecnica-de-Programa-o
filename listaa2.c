@@ -14,6 +14,8 @@ int main(int argc, char *argv[]) {
 	printf("Exercicio 6\n");
 	printf("Exercicio 7\n");
 	printf("Exercicio 8\n");
+	printf("Exercicio 9\n");
+	printf("Exercicio 10\n");	
 	
 	int op;
 	
