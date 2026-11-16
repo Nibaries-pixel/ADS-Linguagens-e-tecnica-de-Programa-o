@@ -30,7 +30,7 @@ double numero;
 
     printf("Em notacao cientifica: %.3e\n", numero);
 
- //ex 3 base bin·ria
+ //ex 3 base bin√°ria
     printf("===================================\n");
     printf("Exercicio 3\n");
     int n, res;
@@ -52,14 +52,14 @@ double numero;
     bit_2 = res%2;
     res = res/2;
 
-    printf("O valor %d em bin·rio È: %d %d %d %d %d %d\n", n, bit_2, bit_4, bit_8, bit_16, bit_32, bit_64);
+    printf("O valor %d em bin√°rio √©: %d %d %d %d %d %d\n", n, bit_2, bit_4, bit_8, bit_16, bit_32, bit_64);
 
-    //ex 4 sal·rio
+    //ex 4 sal√°rio
     printf("===================================\n");
     printf("Exercicio 4\n");
       float sal, vendas, comissao, total;
 
-      printf("Digite o seu sal·rio: ");
+      printf("Digite o seu sal√°rio: ");
       scanf("%f", &sal);
 
       printf("Digite o valor total de vendas: ");
@@ -73,7 +73,7 @@ double numero;
       printf("Seu salario e de %.2f, a boni doida e %.2f.\n TOTAL: R$%.2f\n", sal, comissao, total);
       }
       else {
-        printf("Seu salario e R$%.2f e vocÍ nao teve nenhuma comissao!\n", sal);
+        printf("Seu salario e R$%.2f e voc√™ nao teve nenhuma comissao!\n", sal);
       }
 
       //ex 5
@@ -96,7 +96,7 @@ double numero;
 
       
       soma = n1 + n2 + n3 + n4;
-      printf("A soma entre %d + %d + %d + %d È igual a: %d\n", n1, n2, n3, n4, soma);
+      printf("A soma entre %d + %d + %d + %d √© igual a: %d\n", n1, n2, n3, n4, soma);
 
       media = soma/4;
       printf("A media entre os numeros escolhidos e %d\n", media);
@@ -136,7 +136,7 @@ double numero;
     r3 = pow(raio, 3);
     volume = (4/3.0) * pi * r3;
 
-    printf("O volume da esfera È: %.2f\n", volume);
+    printf("O volume da esfera √©: %.2f\n", volume);
 
 
 
